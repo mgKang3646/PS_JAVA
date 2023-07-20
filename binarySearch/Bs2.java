@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 import static java.lang.Math.*;
+
 //BOJ2805 나무 자르기
 public class Bs2 {
 
