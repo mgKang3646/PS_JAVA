@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//BOJ1541 잃어버린 괄호 수학으로 간략히 해보자라는 시도를 안하고 바로 코드로 만들려고 하였음
+//BOJ1541 잃어버린 괄호
 public class Greedy3 {
     public static void main2(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
