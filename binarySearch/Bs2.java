@@ -38,7 +38,7 @@ public class Bs2 {
             long remain = getWoodRemain(mid);
             if ( remain > m) left = mid+1;
             else if(remain < m ) right = mid-1;
-            else{ // 이전과 달리 mid를 바로 출력하는 이유가 멀까?
+            else{
                 System.out.println(mid);
                 return;
             }
@@ -53,5 +53,4 @@ public class Bs2 {
         }
         return remain;
     }
-
 }
