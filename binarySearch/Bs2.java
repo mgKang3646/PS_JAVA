@@ -54,5 +54,4 @@ public class Bs2 {
         return remain;
     }
 
-
 }
