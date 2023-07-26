@@ -11,7 +11,6 @@ public class Dfs1 {
 
     static int n;
     static int m;
-
     static int startX;
     static int startY;
     static char[][] board;
