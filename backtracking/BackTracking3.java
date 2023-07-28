@@ -1,4 +1,4 @@
-package org.example.bruteforce;
+package org.example.backtracking;
 
 
 import java.io.BufferedReader;
