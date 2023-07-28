@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //BOJ15651 N과M(3)
-public class Bf3 {
+public class BackTracking3 {
 
     static int n;
     static int m;
