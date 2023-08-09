@@ -37,9 +37,10 @@ public class Bfs3 {
         int x = Integer.parseInt(st.nextToken());
         int y = Integer.parseInt(st.nextToken());
 
-        costs= new int[n+1][n+1];
-        bfs(new ChessObject(x,y),costs);
+        costs= new int[n+1][n+1]; // 체스판의 비용을 저장하는 테이블
+        bfs(new ChessObject(x,y),costs); // BFS로 비용 계산하기
 
+        //잡아야 하는 체스말의 비용을 O(1) 시간복잡도로 가져오기
         for(int i =0;i<m;i++){
             st = new StringTokenizer(br.readLine());
             int ix = Integer.parseInt(st.nextToken());
@@ -48,6 +49,7 @@ public class Bfs3 {
             sb.append(costs[iy][ix]).append(" ");
         }
 
+        //출력
         bw.write(sb.toString());
         bw.flush();
         bw.close();
