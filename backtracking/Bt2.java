@@ -4,7 +4,7 @@ package org.example.backtracking;
 import java.util.Scanner;
 
 //BOJ15650 N과 M(2)
-public class BackTracking2 {
+public class Bt2 {
 
     static int n;
     static int m;

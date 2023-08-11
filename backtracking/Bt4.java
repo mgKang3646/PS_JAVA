@@ -1,21 +1,16 @@
 package org.example.backtracking;
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//BOJ15651 N과M(3)
-public class BackTracking3 {
+//BOJ15652 N과M(4)
+public class Bt4 {
 
     static int n;
     static int m;
-
     static StringBuilder sb;
-
-    //static boolean[] visited;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -23,22 +18,23 @@ public class BackTracking3 {
 
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        //visited = new boolean[n];
 
-        recursive(0,"");
+        for(int i=1;i<=n;i++){
+            recursive(i,1,i+"");
+        }
         System.out.println(sb.toString());
-
-
     }
 
-    public static void recursive(int depth, String result){
-        if(depth == m) {
-            sb.append(result).append("\n");
+    public static void recursive(int index,int depth, String arr){
+
+        if(depth == m){
+            sb.append(arr).append("\n");
             return;
         }
-        for(int i=1;i<=n;i++){
-            String tmp = result + i + " ";
-            recursive(depth+1,tmp);
+
+        for(int i=index; i<=n;i++){
+            String tmp = arr + " " + i;
+            recursive(i,depth+1,tmp);
         }
     }
 }

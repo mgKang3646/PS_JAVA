@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 //BOJ15654 N과M(5)
-public class BackTracking5 {
+public class Bt5 {
 
     static int n;
     static int m;

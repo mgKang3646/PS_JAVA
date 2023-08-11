@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 //BOJ15649 N과M(1)
-public class BackTracking1 {
+public class Bt1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
