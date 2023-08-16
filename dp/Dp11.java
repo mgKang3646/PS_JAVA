@@ -6,8 +6,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import static java.lang.Math.*;
-
 //BOJ1495 기타리스트
 public class Dp11 {
     public static void main(String[] args) throws IOException {
