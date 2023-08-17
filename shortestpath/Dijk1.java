@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 //BOJ1753 최단경로
-public class Sp1 {
+public class Dijk1 {
 
     public static PriorityQueue<Edge> priorityQueue = new PriorityQueue<>(); // 우선순위큐
     public static int[] dist; // 최단경로테이블
