@@ -40,7 +40,7 @@ public class Lis2 {
 
     // 이분탐색
     public static int binarySearch(int start, int end, int value){
-        if(start <= end ) return end; //같거나 가장 가까운 큰수
+        if(start == end ) return end; //같거나 가장 가까운 큰수
 
         int mid = ( start + end )/2;
         if( lis.get(mid) >= value ) return binarySearch(start, mid, value);

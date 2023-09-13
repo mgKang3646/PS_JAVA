@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-//BOJ17420 깊콘이 넘쳐흘러 ( 어렵누... )
+//BOJ17420 깊콘이 넘쳐흘러 ( 풀지못한 문제... )
 public class Greedy15 {
 
     static PriorityQueue<GiftCon> pq  = new PriorityQueue<>();
