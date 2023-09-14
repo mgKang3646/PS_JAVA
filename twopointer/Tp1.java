@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 import static java.lang.Math.*;
 
 //BOJ2470 두 용액
-public class TwoPointer1 {
+public class Tp1 {
     static StringTokenizer st;
     static int[] arr;
 
