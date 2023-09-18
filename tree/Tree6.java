@@ -10,11 +10,6 @@ import java.util.StringTokenizer;
 //BOJ3584 가장 가까운 공통 조상
 public class Tree6 {
 
-    public static class Node{
-        int parent;
-
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -26,6 +21,7 @@ public class Tree6 {
             int n = Integer.parseInt(br.readLine());
             int[] parents = new int[n+1];
 
+            // STEP1) 부모 테이블 만들기
             StringTokenizer st;
             for(int i=0;i<n-1;i++){
                 st = new StringTokenizer(br.readLine());
@@ -38,7 +34,7 @@ public class Tree6 {
             st = new StringTokenizer(br.readLine());
 
 
-            //root 찾기
+            // STEP2) 루트 찾기
             for(int i=1;i<=n;i++){
                 if(parents[i] == 0){
                     root = i;
@@ -46,6 +42,7 @@ public class Tree6 {
                 }
             }
 
+            // STEP3) While문에 While문을 넣어 공통부모 찾기
             int child1 = Integer.parseInt(st.nextToken());
             int child2 = Integer.parseInt(st.nextToken());
 
