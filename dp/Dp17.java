@@ -11,7 +11,7 @@ import static java.lang.Math.*;
 //BOJ11049 행렬곱셈순서
 public class Dp17 {
 
-    public static class Matrix{
+    public static class Matrix {
         int row;
         int col;
 
