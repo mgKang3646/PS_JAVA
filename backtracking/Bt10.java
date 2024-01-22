@@ -3,6 +3,8 @@ package org.example.backtracking;
 import java.io.*;
 import java.util.*;
 
+
+//BOJ15686 치킨배달
 public class Bt10 {
 
     static int n,m;
