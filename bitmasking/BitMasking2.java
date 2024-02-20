@@ -1,6 +1,7 @@
 package org.example.bitmasking;
 import java.io.*;
 
+//BOJ1052 물병
 public class BitMasking2{
 
 
